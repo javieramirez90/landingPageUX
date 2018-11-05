@@ -1,0 +1,525 @@
+
+
+/*
+Electric Blue 
+RGB: 45/197/250
+HEX: #2DC5FA
+
+Dark blue
+RGB: 45/53/76
+HEX: #2D354C
+
+Soft dark
+RGB: 24/27/35
+HEX: #181B23
+
+Ruby
+RGB: 236/58/53
+HEX: #EC3A35
+
+White
+*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', monospace;  
+  position: relative;  
+}
+/*Navbar*/
+header{
+  z-index: 10;
+  background-color: #fff;
+  padding:0 5%;
+  width:100%;
+  position: fixed;
+}
+nav{    
+  padding: .5% 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {   
+  text-align: center; 
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav img {
+  width: 40px;
+}
+
+
+/*all sections*/
+h2{
+  font-family: 'Roboto Mono', monospace; 
+}
+h3{
+  font-family: 'Roboto Mono', monospace; 
+}
+section{
+  width: 100%;
+  padding:8% 5%;
+  text-align: center;
+}
+#general{
+  
+  height: 100vh;
+  padding: 0;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url('https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/26910863_2117437818485111_1123558402019818654_o.jpg?_nc_cat=0&oh=40af2ac4b309024bc17c05036025357e&oe=5BB2F92D');
+}
+#general p{
+  font-size: 1em;
+  font-weight: 100;   
+}
+#general p:first-child{
+  font-size: 4.5em;    
+  font-family: 'Roboto Mono', monospace; 
+}
+#general p:nth-child(2){
+  font-size: 3em;    
+  margin-bottom: 10px;
+  color: #2DC5FA;    
+}
+#general p:nth-child(3){
+  font-size: 1em;    
+  margin-bottom: 20px;
+}
+#general p:nth-child(4){
+  font-size: .8em;           
+  margin-bottom: 20px;
+  color: #2DC5FA;
+  
+}
+#general p:nth-last-child(1){ 
+  font-size: .6em;           
+  margin-bottom: 20px;
+}
+#general  a.linki{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 10%;
+  margin-bottom: -10%;
+}
+#general  a.linki i{
+  font-size: 1.5rem;
+}
+
+
+.cover{
+  background-color: rgba(45,53,76,.6);
+  width:100%;
+  height:100vh;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover > div {
+  text-align: center;        
+  width: 80%;    
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*anchor to button*/
+.button{ 
+  display: inline-block;
+  cursor: pointer;    
+  width: 300px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px 0px rgba(45,53,76, .6);
+  color: #fff;
+  text-decoration: none;
+  background-color: #2DC5FA;
+  padding: 10px;
+  margin-right: 10px;
+}
+.button-sm{
+  width: 200px;
+  padding: 5px;
+}
+/*About section*/
+#about > div {    
+  width: 100%;
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+.numbers{
+  color: #2D354C;
+  padding: 5%;
+}
+#about h2{
+  font-size: 3rem;
+  margin-bottom: 25px;
+  font-family: 'Roboto Mono', monospace; 
+
+}
+
+.numbers h3{
+  font-size: 4rem;        
+}
+
+.bestcampus img{
+  width:250px;   
+  margin-bottom: 20px; 
+}
+.bestcampus a:nth-child(1) img{
+  width:300px;    
+}
+.moreinfo{
+  color: #2DC5FA;
+  justify-content: space-between;    
+  
+}
+.moreinfo > div {
+  width: 24%;
+  background-color: #2D354C;    
+  padding: 3%;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.5);
+  transition:all .2s ease;
+  margin-bottom: 20px;
+}
+.moreinfo > div:hover {    
+  box-shadow: 6px 6px 6px 0px rgba(0,0,0,.5);
+  transition:all .2s ease;
+  
+}
+.moreinfo h3{
+  font-size: 1.5rem;   
+  margin-bottom: 10px; 
+}
+.moreinfo i{
+  font-size: 2rem;
+}
+.moreinfo p{
+  color: #fff; 
+  text-align: left;   
+}
+
+/*footer*/
+
+footer{
+  padding:2% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #2DC5FA;
+  flex-wrap: wrap;
+  color: #2D354C;    
+}
+footer > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 25%;
+  text-align: center;
+}
+footer div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer div:nth-child(1) div{    
+  margin-top: 20px;
+  flex-direction: row;    
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+footer h2{
+  font-family: 'Roboto Mono', monospace; 
+}
+footer a i{
+  font-size: 1.5rem;
+}
+footer a:hover{
+  text-decoration: none;
+  color: #2D354C;
+  cursor: pointer;
+}
+
+/*temario clases*/
+
+#temario{         
+  background-color: #2D354C;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;    
+  flex-wrap: wrap;
+  padding-top: 7% 0;    
+}
+
+#temario > div{
+  background-color: #fff;
+  width: 30%;
+  color: #2D354C;
+  border-radius: 5px;
+  padding: 3%;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.5);
+  transition:all .2s ease;
+}
+#temario > div:hover{
+  box-shadow: 6px 6px 6px 0px rgba(0,0,0,.5);
+  transition:all .2s ease;
+}
+#temario > div:nth-child(1){
+      
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 0 0 3% 0;
+  box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+  font-size: 2rem;
+}
+#temario > div:nth-child(5){
+  padding: 5%;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 3% 0 0 0;
+  box-shadow: 0 0 0 0 rgba(0,0,0,.5)
+}
+#temario h3{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+#temario ul{
+  text-align: left;
+  display: none;
+}
+/*portada*/
+#portada{
+  background-image: url('./images/picture.JPG');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  filter: opacity(60%);
+}
+/*empresas*/
+#empresas{
+  width: 45%;
+}
+
+#empresas h2{
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  
+}
+#empresas h3{
+  font-size: 1.5rem;
+  color:#2DC5FA;
+}
+#empresas div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+#empresas img{
+  width: 200px;
+}
+#profesional{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#texto{
+  background-color: #2DC5FA; 
+  color: #2D354C;
+  padding:3% 10%;
+  font-size: 1.5rem;
+}
+
+#logos{
+  width: 50%;
+}
+#logos div{    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+#logos img{
+  width: 150px;    
+}
+#logos img:nth-child(6){    
+  width: 200px;
+}
+
+
+/*costos*/
+#costos{
+  background-color: #2D354C;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#costos div{
+  width: 30%;
+}
+#costos div:nth-child(2){
+  font-size: 1.5rem;
+}
+#costos div:nth-child(2) p:nth-child(2){
+  font-size: 1rem;
+}
+
+
+
+/*responsivenese*/
+@media only screen and (max-width: 1025px){
+  .numbers div{
+      width: 50%;
+  } 
+  .moreinfo div{
+      width: 45%;
+  }
+  #temario div{
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  #general p:first-child{
+      font-size: 4em;    
+  }
+  
+}
+@media only screen and (max-width: 800px){
+  .numbers div{
+      width: 50%;
+  } 
+  .moreinfo div{
+      width: 45%;
+  }
+  #temario div{
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  #general p:first-child{
+      font-size: 4em;    
+  }
+  
+}
+
+
+@media only screen and (max-width: 600px){
+  header{        
+      padding: 1% 3%; 
+  }
+  selection{
+      width: 100%;
+      padding: 2% 3%; 
+  }
+  #general p{
+      font-size: 1em;     
+      font-weight: 1000;   
+  }
+  #general p:first-child{
+      font-size: 2.5em;    
+  }
+  #general p:nth-child(2){
+      font-size: 2em;    
+      color: #2DC5FA;    
+  }
+  #general p:nth-child(3){
+      font-size: 1em;    
+      margin-bottom: 20px;
+  }
+  #general p:nth-child(4){
+      font-size: .8em;           
+      margin-bottom: 20px;
+      color: #2DC5FA;
+      
+  }
+  #general p:nth-last-child(1){ 
+      font-size: .6em;           
+      margin-bottom: 20px;
+  }
+  /*button*/
+  .button{ 
+     width: 200px;
+     margin-bottom: 10px;
+  }
+  .button-sm{
+      width: 200px;
+  }
+
+  #about h2{
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+  }
+  
+  .numbers h3{
+      font-size: 2rem;        
+  }
+  .numbers div{
+      width: 100%;
+  }
+  .moreinfo > div {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  #temario > div{        
+      width: 100%;        
+      margin-bottom: 10px;
+  }
+  #temario h2{
+      font-size: 1.8rem;
+  }
+  #empresas{
+      width: 100%;
+  }
+  #empresas h2{
+      font-size: 1.5rem;
+  }
+  footer > div{
+      width: 100%;
+  }
+  footer a{        
+      font-size: .8rem;
+  }
+  footer div:nth-child(2) div{    
+      margin-top: 10px;        
+  }
+  footer div{    
+      margin-bottom: 10px;     
+  }
+  #costos div{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  #costos div:nth-child(2){
+      font-size: 1.5rem;
+  }
+  #logos{
+      width: 100%;
+  }
+  #logos img{
+      margin-top: 10px;
+      width: 200px;    
+  }
+}
+
+
+
