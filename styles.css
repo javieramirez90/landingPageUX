@@ -303,8 +303,31 @@ footer a:hover{
   display: none;
 }
 /*portada*/
+
+
+.fullscreen-bg {
+  position: fixed;
+  width: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #portada{
-  background-image: url('./images/picture.JPG');
+  /* background-image: url('./images/picture.JPG'); */
+  margin: 0;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,6 +335,35 @@ footer a:hover{
   height: 80vh;
   filter: opacity(60%);
 }
+/*outcomesManager*/
+
+#outcomesManager{
+  background-color: #fff;
+  color: #2D354C;
+}
+
+#outcomesManager div {
+  width: 40%;
+  display: inline-block;
+}
+
+#outcomesManager .personalInfo img{
+  width: 150px;
+  height: auto;
+  border: 5px solid #2DC5FA;
+  border-radius: 50%;
+}
+
+#outcomesManager .carroussel img {
+  width: 80%;
+  height: auto;
+  
+}
+
+
+
+
+
 /*empresas*/
 #empresas{
   width: 45%;
@@ -336,6 +388,8 @@ footer a:hover{
   width: 200px;
 }
 #profesional{
+  background-color: #2D354C;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -350,7 +404,9 @@ footer a:hover{
 }
 
 #logos{
+  background-color: #fff;
   width: 50%;
+  border-radius: 30px;
 }
 #logos div{    
   display: flex;
@@ -366,6 +422,27 @@ footer a:hover{
   width: 200px;
 }
 
+
+/*ALUMNI*/
+
+.alumni{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.successCase {
+  width: 30%;
+  flex-grow: 1;
+  display: inline-block;
+}
+
+.successCase img{
+  width: 150px;
+  height: auto;
+  border: 5px solid #2DC5FA;
+  border-radius: 50%;
+}
 
 /*costos*/
 #costos{
