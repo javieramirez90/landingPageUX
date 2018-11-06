@@ -459,7 +459,8 @@ footer a:hover{
   height: auto;
   border: 5px solid #2DC5FA;
   border-radius: 50%;
-  padding-bottom: 5%;
+  margin-bottom: 5%;
+  /* padding-bottom: 5%; */
 }
 
 /*costos*/
