@@ -149,6 +149,10 @@ section{
   padding: 5px;
 }
 /*About section*/
+#about {
+  padding-bottom: 0;
+}
+
 #about > div {    
   width: 100%;
   display: flex;
@@ -309,7 +313,7 @@ footer a:hover{
 
 
 .fullscreen-bg {
-  position: fixed;
+  /* position: fixed; */
   width: auto;
   top: 0;
   right: 0;
@@ -320,7 +324,7 @@ footer a:hover{
 }
 
 .fullscreen-bg__video {
-  position: absolute;
+  /* position: absolute; */
   margin: 0;
   top: 0;
   left: 0;
@@ -331,11 +335,11 @@ footer a:hover{
 #portada{
   /* background-image: url('./images/picture.JPG'); */
   margin: 0;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  /* background-attachment: fixed;
+  background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  /* height: 80vh; */
   filter: opacity(60%);
 }
 /*outcomesManager*/
@@ -417,6 +421,7 @@ footer a:hover{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap-reverse;
+  margin: 2%;
 }
 
 #logos img{
@@ -627,6 +632,7 @@ footer a:hover{
     width: 100%;
     margin-bottom: 10px;
   }
+  
 }
 
 
