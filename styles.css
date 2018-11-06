@@ -60,9 +60,11 @@ h3{
 }
 section{
   width: 100%;
-  padding:8% 5%;
+  padding:7% 5%;
+  /* El padding original era de 8% 5%; */
   text-align: center;
 }
+
 #general{
   
   height: 100vh;
@@ -286,7 +288,8 @@ footer a:hover{
   box-shadow: 0 0 0 0 rgba(0,0,0,.5);
   font-size: 2rem;
 }
-#temario > div:nth-child(5){
+/* #temario > div:nth-child(5){ */
+#temario > div:nth-child(6){
   padding: 5%;
   width: 100%;
   background-color: transparent;
@@ -350,6 +353,7 @@ footer a:hover{
 #outcomesManager .personalInfo img{
   width: 150px;
   height: auto;
+  margin: 3% 0;
   border: 5px solid #2DC5FA;
   border-radius: 50%;
 }
@@ -466,6 +470,16 @@ footer a:hover{
 
 
 /*responsivenese*/
+@media only screen and (min-width:1026px){
+  #temario div{
+    width: 49%;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2%;
+}
+}
+
+
 @media only screen and (max-width: 1025px){
   .numbers div{
       width: 50%;
@@ -474,8 +488,10 @@ footer a:hover{
       width: 45%;
   }
   #temario div{
-      width: 100%;
-      margin-bottom: 10px;
+      width: 49%;
+      margin-left: 3px;
+      margin-right: 3px;
+      margin-bottom: 2%;
   }
   #general p:first-child{
       font-size: 4em;    
@@ -495,6 +511,12 @@ footer a:hover{
   }
   #general p:first-child{
       font-size: 4em;    
+  }
+  .carroussel img{
+    display: none;
+  }
+  #outcomesManager .personalInfo {
+    width: 100%;
   }
   
 }
@@ -595,6 +617,15 @@ footer a:hover{
   #logos img{
       margin-top: 10px;
       width: 200px;    
+  }
+  .successCase{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #outcomesManager > div{
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 
