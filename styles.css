@@ -480,9 +480,9 @@ footer a:hover{
 }
 
 .successCase {
-  /* align-self: flex-start; */
+  align-self: flex-start;
   width: 30%;
-  /* flex-grow: 1;*/
+  flex-grow: 1;
   display: inline-table;
 }
 
