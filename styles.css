@@ -72,7 +72,7 @@ section{
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  background-image: url('./images/Ironhack04.jpg');
+  background-image: url('./images/FGG3782.jpg');
 }
 #general p{
   font-size: 1em;
@@ -83,12 +83,12 @@ section{
   font-family: 'Roboto Mono', monospace; 
 }
 #general p:nth-child(2){
-  font-size: 3em;    
+  font-size: 2.6em;    
   margin-bottom: 10px;
   color: #2DC5FA;    
 }
 #general p:nth-child(3){
-  font-size: 1em;    
+  font-size: 1.5em;    
   margin-bottom: 20px;
 }
 #general p:nth-child(4){
@@ -177,7 +177,7 @@ section{
 
 .bestcampus img{
   width:250px;   
-  margin-bottom: 20px; 
+  margin-bottom: 10px; 
 }
 .bestcampus a:nth-child(1) img{
   width:300px;    
@@ -211,6 +211,8 @@ section{
 .moreinfo p{
   color: #fff; 
   text-align: left;   
+  /* text-align: justify;
+  text-justify: inter-word; */
 }
 
 /*footer*/
@@ -256,6 +258,38 @@ footer a:hover{
   text-decoration: none;
   color: #2D354C;
   cursor: pointer;
+}
+
+/* Lead Teacher */
+
+#leadTeacher {
+  background-color: #2D354C;
+  color: #fff;
+}
+
+#leadTeacher div {
+  width: 40%;
+  display: inline-block;
+}
+
+#leadTeacher .personalInfo {
+  background-color: #A4A9B0;
+  margin: 5% 0;
+  padding: 5% 0;  
+}
+
+/* #leadTeacher .personalInfo img{
+  width: 150px;
+  height: auto;
+  margin: 3% 0;
+  border: 5px solid #2DC5FA;
+  border-radius: 50%;
+} */
+
+#leadTeacher img {
+  width: 80%;
+  height: auto;
+  
 }
 
 /*temario clases*/
@@ -442,15 +476,17 @@ footer a:hover{
   background-color: white;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .successCase {
+  /* align-self: flex-start; */
   width: 30%;
-  flex-grow: 1;
-  display: inline-block;
+  /* flex-grow: 1;*/
+  display: inline-table;
 }
 
-.successCase h2{
+.successCase h2 {
   padding-bottom: 5%;
 }
 
@@ -490,7 +526,18 @@ footer a:hover{
     margin-left: 3px;
     margin-right: 3px;
     margin-bottom: 2%;
-}
+  }
+
+  /* ************************************************* */
+  /* .descGeneral {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 12;
+    top: 0;
+    left: 0;
+  }*/
+
 }
 
 
@@ -510,6 +557,22 @@ footer a:hover{
   #general p:first-child{
       font-size: 4em;    
   }
+  
+  /* ************************************************* */
+  /* .descGeneral {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 12;
+    top: 0;
+    left: 0;
+  }
+
+  #descNav {
+    visibility: visible;
+  } */
+
+
   
 }
 @media only screen and (max-width: 800px){
@@ -532,6 +595,20 @@ footer a:hover{
   #outcomesManager .personalInfo {
     width: 100%;
   }
+/* ************************************************* */
+  .descGeneral {
+    visibility: visible;
+    margin-bottom: 3%;
+  }
+
+  #descNav {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 12;
+    top: 0;
+    left: 0;
+  }
   
 }
 
@@ -544,6 +621,20 @@ footer a:hover{
       width: 100%;
       padding: 2% 3%; 
   }
+/* ************************************************* */
+  /* .descGeneral {
+    visibility: visible;
+    
+  }
+*/
+  #descNav {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 12;
+    top: 0;
+    left: 0;
+  } 
   #general p{
       font-size: 1em;     
       font-weight: 1000;   
