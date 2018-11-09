@@ -265,28 +265,42 @@ footer a:hover{
 #leadTeacher {
   background-color: #2D354C;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #leadTeacher div {
-  width: 40%;
-  display: inline-block;
+  width: 50%;
+  display: inline-block; 
 }
+
+#leadTeacher ul {
+  list-style: none;
+  text-align: justify;
+}
+
 
 #leadTeacher .personalInfo {
-  background-color: #A4A9B0;
+  width: 35%;
+  margin: 0 5%;
+  /* background-color: rgb(66, 81, 128);
+  opacity: 10%;
+  border-radius: 10%; */
+  /* background-color: #A4A9B0;
   margin: 5% 0;
-  padding: 5% 0;  
+  padding: 5% 0;   */
 }
 
-/* #leadTeacher .personalInfo img{
-  width: 150px;
-  height: auto;
-  margin: 3% 0;
-  border: 5px solid #2DC5FA;
-  border-radius: 50%;
-} */
+#leadTeacher .personalInfo h2 {
+  margin-bottom: 10%;
+  }
 
 #leadTeacher img {
+  padding: 3%;
+  border-radius: 5%;
+  background-color: #F3F9FA;
   width: 80%;
   height: auto;
   
@@ -617,6 +631,14 @@ footer a:hover{
     border: 5px solid #2DC5FA;
     border-radius: 50%;
     margin-bottom: 5%;
+  }
+
+  #leadTeacher .imgPersonal{
+    width: 40%;
+  }
+  #leadTeacher .personalInfo{
+    width: 50%;
+    
   }
 
 
