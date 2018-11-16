@@ -565,13 +565,14 @@ footer a:hover{
   width: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.5);
+  padding: 0;
 }
 
 .modal-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 5%; */
+  margin: 7% 10% 0 10%;
   /* padding: 15% ; */
   /* background-color: #f4f4f4; */
   /* margin: % ; */
@@ -668,6 +669,7 @@ footer a:hover{
 
 
 @media only screen and (max-width: 1025px){
+  
 
   .successCase h3 {
     padding-bottom: 1%;
@@ -716,6 +718,17 @@ footer a:hover{
   
 }
 @media only screen and (max-width: 800px){
+
+  .modal-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+    padding: 0;
+  }
+
+  
 
   .successCase img{
     width: 150px;
@@ -797,7 +810,6 @@ footer a:hover{
   order: 1;
   margin: 15% 0 0 0;
   padding: 3%;
-  
 }
 
 
