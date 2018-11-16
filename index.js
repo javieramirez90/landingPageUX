@@ -5,7 +5,7 @@ var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 //listen for a click 
 
-window.addEventListener('mouseover', openModal);
+window.addEventListener('load', openModal);
 
 closeBtn.addEventListener('click', closeModal);
 
